@@ -1,0 +1,4 @@
+COLUMN TABLE "SALARY"(
+    "EMP_ID" INT,
+    "SALARY" DECIMAL(10,2)
+)
