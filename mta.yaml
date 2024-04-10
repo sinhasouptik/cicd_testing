@@ -13,7 +13,9 @@ resources:
 - name: hdi_db
   type: com.sap.xs.hdi-container
   parameters:
+    service-name: HDI_CICD_TESTING
     config:
       schema: cicd_testing
+      makeUniqueName: false
   properties:
     hdi-container-name: ${service-name}
